@@ -5,10 +5,12 @@
 //ciclo while
 //math.pow
 
-n = 0
-elevated = Math.pow(2, n)
+n = 0;
+elevated = Math.pow(2, n);
 
-while (elevated < 10) {
+while (elevated < 1000) {
     n++;
     document.querySelector("h1").insertAdjacentHTML("beforeend", elevated);
 }
+
+// il browser non me lo carica, non so se perché sbaglio io o perché è il browser
