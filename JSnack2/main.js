@@ -2,6 +2,7 @@
 
 //strumenti:
 //const per assegnare le variabili
+//prompt per chiedere inserimento all'utente
 //.length per calcolare lunghezza parole
 //if ed else per confrontare la lunghezza delle parole
 //query selector per stampare nell'h1 il risultato

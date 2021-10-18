@@ -3,6 +3,7 @@
 //strumenti:
 //const per assegnare le variabili
 //parse int per verificare che quello inserito sia un numero (altrimenti ricade nell'else)
+//prompt per richiedere inserimento all'utente
 //if ed else per confrontare i numeri nei vari casi
 //query selector per stampare nell'h1 il risultato
 //backtick, virgolette e ${} per unire stringhe e variabili
