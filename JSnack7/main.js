@@ -6,11 +6,15 @@
 //math.pow
 
 n = 0;
-elevated = Math.pow(2, n);
+elevated = 0;
 
-while (elevated < 1000) {
+while (Math.pow(2,n) < 1000) {
     n++;
-    document.querySelector("h1").insertAdjacentHTML("beforeend", elevated);
+    let elevated = Math.pow (2, n);
+    if (elevated < 1000) {
+        document.querySelector("h1").insertAdjacentHTML("beforeend", ` ${elevated}`);
+    }
+    
 }
 
 // il browser non me lo carica, non so se perché sbaglio io o perché è il browser
