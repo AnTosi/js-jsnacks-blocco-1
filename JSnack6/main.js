@@ -13,7 +13,7 @@ const userNum = parseInt(prompt("Digita un numero"));
 let allCubes = [];
 
 for (let i = 0; i <= userNum; i++) {
-    allCubes.push(Math.pow(i, 2));
+    allCubes.push(Math.pow(i, 3));
     
     
 }
